@@ -43,15 +43,15 @@ Console.WriteLine("=====================");
 
 Console.WriteLine("=====================");
 Console.WriteLine("MergeTwoSortedList");
-Console.WriteLine(MergeTwoSortedListsChallenge.MergeTwoLists(
+Console.WriteLine(MergeTwoSortedListsChallenge.PrintNodes(MergeTwoSortedListsChallenge.MergeTwoLists(
     new ListNode(1, new ListNode(2, new ListNode(4, null))),
     new ListNode(1, new ListNode(3, new ListNode(4, null)))
-    ));
-Console.WriteLine(MergeTwoSortedListsChallenge.MergeTwoLists(
+    )));
+Console.WriteLine(MergeTwoSortedListsChallenge.PrintNodes(MergeTwoSortedListsChallenge.MergeTwoLists(
     null, null
-    ));
-Console.WriteLine(MergeTwoSortedListsChallenge.MergeTwoLists(
+    )));
+Console.WriteLine(MergeTwoSortedListsChallenge.PrintNodes(MergeTwoSortedListsChallenge.MergeTwoLists(
     null,
     new ListNode(0, null)
-    ));
+    )));
 Console.WriteLine("=====================");
