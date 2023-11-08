@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleAppLeetCode;
 using ConsoleAppLeetCode.Easy;
+using ConsoleAppLeetCode.Medium;
 
 Console.WriteLine("=====================");
 Console.WriteLine("TwoSum");
@@ -54,4 +55,20 @@ Console.WriteLine(MergeTwoSortedListsChallenge.PrintNodes(MergeTwoSortedListsCha
     null,
     new ListNode(0, null)
     )));
+Console.WriteLine("=====================");
+
+Console.WriteLine("=====================");
+Console.WriteLine("RemoveDuplicatesFromSortedArray");
+Console.WriteLine(RemoveDuplicatesFromSortedArrayChallenge.RemoveDuplicates(new int[] { 1, 1, 2 }));
+Console.WriteLine("=====================");
+
+Console.WriteLine("=====================");
+Console.WriteLine("RevserseInteger");
+Console.WriteLine(RevserseIntegerChallenge.Reverse(123456789));
+Console.WriteLine("=====================");
+
+Console.WriteLine("=====================");
+Console.WriteLine("StringToInteger");
+Console.WriteLine(StringToIntegerMyAtoiChallenge.MyAtoi("42"));
+Console.WriteLine(StringToIntegerMyAtoiChallenge.MyAtoi(""));
 Console.WriteLine("=====================");
